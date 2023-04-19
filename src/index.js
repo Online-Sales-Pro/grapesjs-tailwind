@@ -15,8 +15,9 @@ export default (editor, opts = {}) => {
     }, ...opts
   };
 
-  // Add blocks
-  loadBlocks(editor, options);
+  // DON'T Add blocks
+  // loadBlocks(editor, options);
+
   // Add commands
   loadCommands(editor, options);
   // Load i18n files
